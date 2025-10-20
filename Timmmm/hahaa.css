@@ -64,7 +64,7 @@ body { margin: 0; font-family: Arial, sans-serif; background-color: #f7f7f7; ove
 /* Nội dung lời chúc (Màu chữ ký xám nhạt) */
 .letter-content { opacity: 0; transition: opacity 0.8s ease 1s; }
 .letter-content h2 { color: #ffd700; margin-bottom: 15px; text-shadow: 0 0 10px rgba(255, 215, 0, 0.5);}
-.letter-content .greeting-text { color: #eee; font-size: 1.1em; line-height: 1.6; margin-bottom: 10px;}
+.letter-content .greeting-text { color: #000; font-size: 1.1em; line-height: 1.6; margin-bottom: 10px;}
 .letter-content .signature { 
     color: #cccccc; /* Xám nhạt */
     margin-top: 30px; font-style: italic; text-align: right; 
@@ -105,4 +105,5 @@ body { margin: 0; font-family: Arial, sans-serif; background-color: #f7f7f7; ove
     0% { opacity: 0; }
     10% { opacity: 1; }
     100% { opacity: 1; }
+
 }
